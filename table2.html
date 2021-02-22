@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="./css/bootstrap.css">
+<script src="./js/jquery-3.5.1.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.js"></script>
+<style>
+    
+    .table-hover tbody tr:hover {
+        color: #212529;
+        background-color: rgba(132, 177, 185, 0.1);
+    }
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: rgba(132, 172, 68, 0.1);
+    }
+
+</style>
+</head>
+<body>
+    <!-- 문제 3. 게시판에 내용이 5줄 이상 되도록하여 부트스트랩의 테이블을 이용하여 화면에 출력하세요. -->
+    <!-- 홀수줄과 짝수줄 색상을 다르게 표현하고, 마우스가 올라가 라인의 색상을 변경, 검정 테마로 작성 -->
+    <div class="container-fluid">
+        <table class="table table-hover table-striped table-dark">
+            <thead>
+                <tr>
+                    <th>번호</th>
+                    <th>제목</th>
+                    <th>글쓴이</th>
+                    <th>추천</th>
+                    <th>작성일</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>한복논란중에 갑자기 불안한 느낌.jpg [26]</td>
+                    <td>조룡남선생</td>
+                    <td>53</td>
+                    <td>9분 전</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>일찐맨 [28]</td>
+                    <td>리프스니이</td>
+                    <td>52</td>
+                    <td>31분 전</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>개드립 치트키 [18]</td>
+                    <td>아린땜에심장이아린</td>
+                    <td>68</td>
+                    <td>34분 전</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>교통수단 속 동물들 [50]</td>
+                    <td>므겡므겡</td>
+                    <td>67</td>
+                    <td>56분 전</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>근처 사무실 근황... [50]</td>
+                    <td>튀김우동</td>
+                    <td>94</td>
+                    <td>1시간 전</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
